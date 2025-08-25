@@ -41,7 +41,7 @@
       "question": "At a party, you're most likely to:",
       "options": [
         {
-          "text": "Go around silently judging their decoration choiches.",
+          "text": "Go around silently judging their decoration choices.",
           "scores": { "ui": 3, "ux": 0, "coding": 0 }
         },
         {
