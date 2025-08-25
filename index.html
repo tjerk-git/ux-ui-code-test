@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design & Code Personality Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Interactive Design Studio sorting hat</h1>
+        </header>
+
+        <div id="quiz-container" class="quiz-container">
+            <div class="progress-bar">
+                <div id="progress" class="progress"></div>
+                <span id="question-counter" class="question-counter">Question 1 of 10</span>
+            </div>
+
+            <div id="question-card" class="question-card">
+                <h2 id="question-text" class="question-text"></h2>
+                <div id="options-container" class="options-container">
+                </div>
+                <button id="next-btn" class="next-btn" disabled>Next Question</button>
+            </div>
+        </div>
+
+        <div id="results-container" class="results-container hidden">
+            <div class="results-header">
+                <h2>Your Design Personality</h2>
+            </div>
+            
+            <div class="results-diagram">
+                <div class="personality-card">
+                    <div id="personality-icon" class="personality-icon"></div>
+                    <h3 id="personality-title" class="personality-title"></h3>
+                    <p id="personality-description" class="personality-description"></p>
+                </div>
+
+                <div class="traits-section">
+                    <h4>Your Superpowers:</h4>
+                    <ul id="personality-traits" class="traits-list">
+                    </ul>
+                </div>
+
+                <div class="score-breakdown">
+                    <h4>Score Breakdown:</h4>
+                    <div class="score-bars">
+                        <div class="score-item">
+                            <span class="score-label">UI Design</span>
+                            <div class="score-bar">
+                                <div id="ui-score-fill" class="score-fill ui-color"></div>
+                            </div>
+                            <span id="ui-score-text" class="score-value">0</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">UX Design</span>
+                            <div class="score-bar">
+                                <div id="ux-score-fill" class="score-fill ux-color"></div>
+                            </div>
+                            <span id="ux-score-text" class="score-value">0</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">Coding</span>
+                            <div class="score-bar">
+                                <div id="coding-score-fill" class="score-fill coding-color"></div>
+                            </div>
+                            <span id="coding-score-text" class="score-value">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="results-actions">
+                <button id="restart-btn" class="restart-btn">Take Quiz Again</button>
+                <button id="share-btn" class="share-btn">Share Results</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

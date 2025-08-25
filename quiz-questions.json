@@ -1,0 +1,126 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "You're redesigning a button. What's your first instinct?",
+      "options": [
+        {
+          "text": "Make it so beautiful that users will screenshot it and frame it on their wall",
+          "scores": { "ui": 3, "ux": 0, "coding": 0 }
+        },
+        {
+          "text": "Research how users currently interact with similar buttons",
+          "scores": { "ui": 0, "ux": 3, "coding": 0 }
+        },
+        {
+          "text": "Try to rickroll somebody with it",
+          "scores": { "ui": 0, "ux": 0, "coding": 3 }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When you see a poorly designed website, you think:",
+      "options": [
+        {
+          "text": "This typography is making my eyes bleed",
+          "scores": { "ui": 3, "ux": 0, "coding": 0 }
+        },
+        {
+          "text": "I bet users can't find what they're looking for..",
+          "scores": { "ui": 0, "ux": 3, "coding": 0 }
+        },
+        {
+          "text": "Thank god for ad-blocker and my custom scripts",
+          "scores": { "ui": 0, "ux": 0, "coding": 3 }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "At a party, you're most likely to:",
+      "options": [
+        {
+          "text": "Go around silently judging their decoration choiches.",
+          "scores": { "ui": 3, "ux": 0, "coding": 0 }
+        },
+        {
+          "text": "Study how people naturally form conversation groups",
+          "scores": { "ui": 0, "ux": 3, "coding": 0 }
+        },
+        {
+          "text": "Calculate the optimal speaker placement for sound distribution",
+          "scores": { "ui": 0, "ux": 1, "coding": 2 }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "When explaining your work to your mom (or caretaker), you say:",
+      "options": [
+        {
+          "text": "I make things look pretty on computers",
+          "scores": { "ui": 3, "ux": 0, "coding": 0 }
+        },
+        {
+          "text": "I figure out why people get confused by digital stuff",
+          "scores": { "ui": 0, "ux": 3, "coding": 0 }
+        },
+        {
+          "text": "I tell computers what to do, and sometimes they listen",
+          "scores": { "ui": 0, "ux": 0, "coding": 3 }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Your biggest pet peeve is:",
+      "options": [
+        {
+          "text": "Comic Sans being used unironically",
+          "scores": { "ui": 3, "ux": 0, "coding": 0 }
+        },
+        {
+          "text": "Apps that make you create an account just to browse",
+          "scores": { "ui": 0, "ux": 3, "coding": 0 }
+        },
+        {
+          "text": "People queuing inefficiently at a self-checkout",
+          "scores": { "ui": 0, "ux": 0, "coding": 3 }
+        }
+      ]
+    }
+  ],
+  "results": {
+    "ui": {
+      "title": "UI Designer",
+      "description": "You're a visual wizard! Your brain thinks in pixels, colors, and beautiful interfaces. You see design opportunities everywhere and have strong opinions about kerning.",
+      "traits": [
+        "Eye for visual details",
+        "Color theory enthusiast",
+        "Typography perfectionist",
+        "Design system architect"
+      ]
+    },
+    "ux": {
+      "title": "UX Designer", 
+      "description": "You're a user advocate and problem solver! You think about human behavior, pain points, and making experiences delightful. You probably have strong feelings about user journeys.",
+      "traits": [
+        "Human psychology insight",
+        "Problem-solving mindset",
+        "Research-driven approach",
+        "Empathy for users"
+      ]
+    },
+    "coding": {
+      "title": "Developer/Coder",
+      "description": "You're a logic master and digital architect! You think in systems, algorithms, and elegant solutions. You probably dream in code and have strong opinions about semicolons.",
+      "traits": [
+        "Systematic thinking",
+        "Problem decomposition",
+        "Technical architecture",
+        "Efficiency optimization"
+      ]
+    }
+  }
+}
